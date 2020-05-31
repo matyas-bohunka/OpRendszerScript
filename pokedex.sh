@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-echo "a opció: ability.txt-be menti és kiírja mit csinál egy adott képesség az id-je alapján."
-echo "t opció: type.txt-be menti és kiírja hogy az adott pokémon típushoz hány pokémon tartozik id."
-echo "n opció: name.txt-be menti és kiírja a id-je alapján megkeresett pokémon nevét. "
+echo "a opció: ability.txt-be menti és kiírja mit csinál egy adott képesség az id-je alapján. [1-233]"
+echo "t opció: type.txt-be menti és kiírja hogy az adott pokémon típushoz hány pokémon tartozik id. [1-17]"
+echo "n opció: name.txt-be menti és kiírja a id-je alapján megkeresett pokémon nevét. [1-807] "
 
 while getopts t:a:n: options; do
  case $options in
